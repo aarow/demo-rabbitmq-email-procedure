@@ -18,13 +18,13 @@ function App() {
       <h1>RabbitMQ Messages</h1>
       <table>
         <thead>
-          <th>
-            <td>Index</td>
-            <td>Time</td>
-            <td>Name</td>
-            <td>Email</td>
-            <td>Message</td>
-          </th>
+          <tr>
+            <th>Index</th>
+            <th>Time</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Message</th>
+          </tr>
         </thead>
         <tbody>
           {messages.map((msg, index) => (
